@@ -18,9 +18,9 @@ public class ExemploOrdenacaoList {
     public static void main(String[] args) {
 
         List<Gato> meusGatos = new ArrayList<>(){{
-            add(new Gato("Jon", 12, "preto"));
-            add(new Gato("Simba", 6, "tigrado"));
-            add(new Gato("Jon", 18, "amarelo"));
+            add(new Gato("Scar", 12, "preto"));
+            add(new Gato("Simba", 6, "caramelo"));
+            add(new Gato("Mufasa", 18, "branco"));
         }};
         meusGatos.sort(Comparator.comparing(Gato::getNome));
 
