@@ -54,7 +54,7 @@ public class ExercicioProposto01 {
             if (entry.getValue().equals(Collections.max(populacao))) estadoMaiorPopulacao = entry.getKey();
             if (entry.getValue().equals(Collections.min(populacao))) estadoMenorPopulacao = entry.getKey();
         }
-        System.out.printf("Exiba o estado com o menor população (%s) e seu respectivo valor (%d)\n",
+        System.out.printf("Exiba o estado com a menor população (%s) e seu respectivo valor (%d)\n",
                 estadoMenorPopulacao, Collections.min(populacao));
         System.out.printf("Exiba o estado com a maior população (%s) e seu respectivo valor (%d)\n",
                 estadoMaiorPopulacao, Collections.max(populacao));
