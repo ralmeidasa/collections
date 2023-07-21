@@ -71,7 +71,7 @@ public class ExerciciosStreamAPI {
 //        numerosAleatoriosInteger.removeIf(i -> (i % 2 != 0));
 //        System.out.println(numerosAleatoriosInteger);
 
-//        Para você
+
         System.out.println("Ignore os 3 primeiros elementos da lista e imprima o restante:");
         numerosAleatoriosInteger.stream()
                 .skip(3)
