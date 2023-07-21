@@ -36,7 +36,7 @@ public class ExemploMap {
 
         System.out.println("Exiba o consumo do uno: " + carrosPopulares.get("uno") + "\n");
 
-//        System.out.println("Exiba o terceiro modelo adicionado: ");
+//        System.out.println("Exiba o terceiro modelo adicionado: "); NÃO É POSSÍVEL, NÃO TEM ÍNDICE
 
         System.out.println("Exiba os modelos: ");
         Set<String> modelos = carrosPopulares.keySet();
